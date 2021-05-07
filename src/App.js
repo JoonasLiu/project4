@@ -25,50 +25,7 @@ function App() {
     </div>
   )
 }
-// const App = () => {
-//   const [muuttuja, setMuuttuja] = useState()
-//   const [henkilot, setHenkilot] = useState([])
 
-  
-//    useEffect(() => {
-//      fetch('https://project3jooliu.herokuapp.com/henkilot/getall')
-//     .then(result => {
-//       return result.json()
-//      })
-//      .then(data => {
-//        console.log(data)
-//        setHenkilot(data)
-//      })
-//    }, [])
-
-
-//   useEffect(() => {
-//     let henkilotCopy = [...henkilot]
-//     henkilotCopy = henkilotCopy.filter(henkilo => henkilo.name.includes(muuttuja))
-//     setHenkilot(henkilotCopy)
-//   }, [muuttuja])
-
-//   const handleChange = (event) => {
-//     setMuuttuja(event.target.value)
-//   }
-
- 
-
-  
-//   return (
-//     <>
-//      <form>
-//        <input value={muuttuja} type='text' onChange={handleChange} />
-//      </form>
-//      {
-//        henkilot.map(henkilo =>
-//         <Henkilo whyHyva={henkilo.whyHyva} name={henkilo.name} />
-//         )
-//      }
-     
-//     </>
-//   )
-// }
 
 
 export default App
